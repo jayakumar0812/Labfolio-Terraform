@@ -1,0 +1,10 @@
+# This file contains the variables that are used in the main.tf file
+region = "eu-west-1"
+vpc_cidr = "10.0.0.0/16"
+Publicsubnet1_cidr_block = "10.0.1.0/24"
+Privatesubnet1_cidr_block = "10.0.2.0/24"
+ami_id = "ami-0fcc0bef51bad3cb2"
+instance_type = "t2.micro"
+key_name = "First_Lab"
+access_key = ""
+secret_key = ""
